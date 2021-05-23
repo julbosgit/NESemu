@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CPU::STA_ABS():opcodes.inl">
+         <PersistentStrings>
+            <PersistentString
+               value = "_a">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PPU::_displayNameTables():ppu.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "CPU::CPU_cycle():cpu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "_cycle_cnt">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PPU::_displaySprites():ppu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "_spritePatternTableAddr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CPU::_generic_LDA(short, bool):cpu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "_a">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PPU::PPU_step():ppu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "_camPositionX">
+            </PersistentString>
+            <PersistentString
+               value = "_showBG">
+            </PersistentString>
+            <PersistentString
+               value = "_showSprite">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PPU::_displayNameTables(unsigned short, unsigned char, unsigned char):ppu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "scrollX">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CPU::ProcessNMI():cpu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "_pc">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Controller::getNextInput():controller.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "_inputPos">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PPU::setScroll(unsigned char):ppu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "_camPositionX">
+            </PersistentString>
+            <PersistentString
+               value = "_cycle_cnt">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PPU::setData(unsigned char):ppu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "_writeIncrements">
+            </PersistentString>
+            <PersistentString
+               value = "_PPUAddr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IOBus::PPUreadMemory(unsigned short):iobus.hpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "_VRAM">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CPU::_generic_ASL(short, bool):cpu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "_a">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CPU::_generic_JSR(short, bool):cpu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "_pc">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PPU::setMask(unsigned char):ppu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "_showBG">
+            </PersistentString>
+            <PersistentString
+               value = "_showSprite">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

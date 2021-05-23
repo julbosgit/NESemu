@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9645B1525A029E6009ADCCF /* ppu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9645B1325A029E6009ADCCF /* ppu.cpp */; };
+		B9645B1B25AA58FC009ADCCF /* controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9645B1925AA58FA009ADCCF /* controller.cpp */; };
+		B9F592072599A8D200EC1513 /* cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9F592052599A8D200EC1513 /* cpu.cpp */; };
+		B9F59210259D325800EC1513 /* iobus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9F5920E259D325800EC1513 /* iobus.cpp */; };
+		B9F8E39A2659E75E0098BE55 /* cartridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9F8E3952659E75D0098BE55 /* cartridge.cpp */; };
+		B9F8E39B2659E75E0098BE55 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9F8E3962659E75E0098BE55 /* main.cpp */; };
+		B9F8E39C2659E75E0098BE55 /* nessystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9F8E3972659E75E0098BE55 /* nessystem.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B9F591F9259939E600EC1513 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B9645B1325A029E6009ADCCF /* ppu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ppu.cpp; path = src/ppu.cpp; sourceTree = "<group>"; };
+		B9645B1425A029E6009ADCCF /* ppu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ppu.hpp; path = src/ppu.hpp; sourceTree = "<group>"; };
+		B9645B1925AA58FA009ADCCF /* controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = controller.cpp; path = src/controller.cpp; sourceTree = "<group>"; };
+		B9645B1A25AA58FA009ADCCF /* controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = controller.hpp; path = src/controller.hpp; sourceTree = "<group>"; };
+		B9F591FB259939E600EC1513 /* NESemu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NESemu; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F592052599A8D200EC1513 /* cpu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = cpu.cpp; path = src/cpu.cpp; sourceTree = "<group>"; };
+		B9F592062599A8D200EC1513 /* cpu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = cpu.hpp; path = src/cpu.hpp; sourceTree = "<group>"; };
+		B9F5920E259D325800EC1513 /* iobus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = iobus.cpp; path = src/iobus.cpp; sourceTree = "<group>"; };
+		B9F5920F259D325800EC1513 /* iobus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = iobus.hpp; path = src/iobus.hpp; sourceTree = "<group>"; };
+		B9F59211259DC47500EC1513 /* opcodes.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = opcodes.inl; path = src/opcodes.inl; sourceTree = "<group>"; };
+		B9F8E3952659E75D0098BE55 /* cartridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cartridge.cpp; path = src/cartridge.cpp; sourceTree = "<group>"; };
+		B9F8E3962659E75E0098BE55 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = "<group>"; };
+		B9F8E3972659E75E0098BE55 /* nessystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nessystem.cpp; path = src/nessystem.cpp; sourceTree = "<group>"; };
+		B9F8E3982659E75E0098BE55 /* nessystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = nessystem.hpp; path = src/nessystem.hpp; sourceTree = "<group>"; };
+		B9F8E3992659E75E0098BE55 /* cartridge.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cartridge.hpp; path = src/cartridge.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9F591F8259939E600EC1513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9F591F2259939E600EC1513 = {
+			isa = PBXGroup;
+			children = (
+				B9F591FD259939E600EC1513 /* NESemu */,
+				B9F591FC259939E600EC1513 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9F591FC259939E600EC1513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9F591FB259939E600EC1513 /* NESemu */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9F591FD259939E600EC1513 /* NESemu */ = {
+			isa = PBXGroup;
+			children = (
+				B9F8E3952659E75D0098BE55 /* cartridge.cpp */,
+				B9F8E3992659E75E0098BE55 /* cartridge.hpp */,
+				B9F8E3962659E75E0098BE55 /* main.cpp */,
+				B9F8E3972659E75E0098BE55 /* nessystem.cpp */,
+				B9F8E3982659E75E0098BE55 /* nessystem.hpp */,
+				B9F59211259DC47500EC1513 /* opcodes.inl */,
+				B9645B1925AA58FA009ADCCF /* controller.cpp */,
+				B9645B1A25AA58FA009ADCCF /* controller.hpp */,
+				B9F592052599A8D200EC1513 /* cpu.cpp */,
+				B9F592062599A8D200EC1513 /* cpu.hpp */,
+				B9F5920E259D325800EC1513 /* iobus.cpp */,
+				B9F5920F259D325800EC1513 /* iobus.hpp */,
+				B9645B1325A029E6009ADCCF /* ppu.cpp */,
+				B9645B1425A029E6009ADCCF /* ppu.hpp */,
+			);
+			path = NESemu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9F591FA259939E600EC1513 /* NESemu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F59202259939E600EC1513 /* Build configuration list for PBXNativeTarget "NESemu" */;
+			buildPhases = (
+				B9F591F7259939E600EC1513 /* Sources */,
+				B9F591F8259939E600EC1513 /* Frameworks */,
+				B9F591F9259939E600EC1513 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NESemu;
+			productName = NESemu;
+			productReference = B9F591FB259939E600EC1513 /* NESemu */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9F591F3259939E600EC1513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Julien Bost";
+				TargetAttributes = {
+					B9F591FA259939E600EC1513 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = B9F591F6259939E600EC1513 /* Build configuration list for PBXProject "NESemu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9F591F2259939E600EC1513;
+			productRefGroup = B9F591FC259939E600EC1513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9F591FA259939E600EC1513 /* NESemu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9F591F7259939E600EC1513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F592072599A8D200EC1513 /* cpu.cpp in Sources */,
+				B9F8E39A2659E75E0098BE55 /* cartridge.cpp in Sources */,
+				B9F8E39B2659E75E0098BE55 /* main.cpp in Sources */,
+				B9645B1525A029E6009ADCCF /* ppu.cpp in Sources */,
+				B9F59210259D325800EC1513 /* iobus.cpp in Sources */,
+				B9F8E39C2659E75E0098BE55 /* nessystem.cpp in Sources */,
+				B9645B1B25AA58FC009ADCCF /* controller.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9F59200259939E600EC1513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B9F59201259939E600EC1513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B9F59203259939E600EC1513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = /Library/Frameworks/SDL2.framework/Versions/A/Headers;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-F/Library/Frameworks",
+					"-framework",
+					SDL2,
+					"-framework",
+					Cocoa,
+				);
+				"OTHER_LIBTOOLFLAGS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		B9F59204259939E600EC1513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = /Library/Frameworks/SDL2.framework/Versions/A/Headers;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-F/Library/Frameworks",
+					"-framework",
+					SDL2,
+					"-framework",
+					Cocoa,
+				);
+				"OTHER_LIBTOOLFLAGS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9F591F6259939E600EC1513 /* Build configuration list for PBXProject "NESemu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F59200259939E600EC1513 /* Debug */,
+				B9F59201259939E600EC1513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9F59202259939E600EC1513 /* Build configuration list for PBXNativeTarget "NESemu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F59203259939E600EC1513 /* Debug */,
+				B9F59204259939E600EC1513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9F591F3259939E600EC1513 /* Project object */;
+}
